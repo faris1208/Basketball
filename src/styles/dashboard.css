@@ -1,0 +1,130 @@
+.dashboard-container{
+    background: #F4F6FF;
+    width: 100%;
+    /* border: 8px solid black; */
+}
+
+.dashboard-wrapper{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 60px;
+    border: 2px solid blue;
+    padding: 40px 0px 0px 30px;
+}
+
+.bar-contents{
+    width: 70%;
+    position: relative;
+}
+
+
+.bar-input{
+    width: 100%;
+    padding: 11px 30px ;
+    /* color: rgba(30, 30, 30, 0.43); */
+    color: #000;
+    font-family: PoppingsRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.bar-input::placeholder{
+    padding-left:30px;
+    /* border: 2px solid red; */
+}
+
+.bar-image{
+    width: 2.5%;
+    position: absolute;
+    top: 16px;
+    left: 25px;
+}
+
+.icon-contents{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* border: 2px solid black; */
+}
+
+
+.icon-head{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px 0px;
+}
+
+.icon-image{
+    width: 13%;
+}
+
+.icon-head p{
+    color: #1F1F1F;
+    font-family: PoppingsRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+
+.notification-head{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: purple;
+    /* border: 3px solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification-image{
+    width: 75%;
+}
+
+.chart-contents{
+    margin-top: 50px;
+    border: 2px solid blue;
+}
+
+.timmy-contents h1{
+    color: #2A2D74;
+    text-align: left;
+    font-family: PoppingsRegular;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 97.778% */
+    letter-spacing: -2.7px;
+}
+
+.timmy-head{
+    border: 2px solid red;
+    display: flex;
+}
+
+.timmy-image{
+    width: 30%;
+}
+
+.timmy-image1{
+    width: 20%;
+    border: 2px solid blue;
+}

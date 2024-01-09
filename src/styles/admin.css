@@ -1,0 +1,240 @@
+.admin-container{
+    background: #F4F6FF;
+    width: 100%;
+    /* border: 2px solid red; */
+    /* max-width: 840px; */
+}
+
+.admin-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 40px 0px 30px;
+}
+
+.admin-head{
+    width: 16%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid green; */
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* text-align: right; */
+}
+
+.admin-image{
+    width: 15%;
+}
+
+.admin-head p{
+    color: #000;
+    font-family: PoppingsRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+}
+
+.information{
+    padding: 30px;
+    /* border: 2px solid red; */
+    
+}
+
+.information h1{
+    color: #000;
+    font-family: PoppingsRegular;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 97.778% */
+    margin-left: 20px;
+}
+
+.admin-wrapper2{
+    border: 2px solid red;
+    background: #FFF;
+    margin-top: 25px;
+    padding: 0px 0px 20px;
+    /* text-align: center; */
+}
+
+.admin-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 0px 0px;
+}
+
+.user2{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2D74;
+
+    fill: #2A2D74;
+}
+
+.user2-image{
+    width: 60%;
+}
+
+.admin-heading h6{
+    color: #192126;
+    font-family: PoppingsRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    margin: 0px 0px 10px;
+}
+
+.new-edit{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 10px;
+
+    border-radius: 20px;
+    background: #2A2D74;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.new-edit p{
+    color: #FFF;
+    font-family: PoppingsRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 16px; */
+    letter-spacing: 0.08px;
+}
+
+.edit2-image{
+    width: 32%;
+}
+
+.account-information{
+    display: flex;
+    /* gap: 100px; */
+    justify-content: space-between;
+    padding: 40px 80px 10px;
+}
+
+.account-information h3{
+    /* border: 2px solid greenyellow; */
+    padding: 10px 25px;
+    /* border-radius: 20px;
+    background: #2A2D74;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+
+    color: #192126;
+    font-family: PoppingsRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    cursor: pointer;
+}
+
+.account-information h3:hover{
+     border-radius: 20px;
+    background: #2A2D74;
+    color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.compile{
+    padding: 0px 30px;
+}
+
+.complete{
+    background: #F4F6FF;
+    padding: 20px 0px;
+
+}
+
+.complete h3{
+    color: #192126;
+    font-family: PoppingsRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.024px;
+    margin-left: 60px;
+}
+
+.lines{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 30px 0px 20px;
+}
+
+.line9-image{
+    width: 40%;
+    height: 8px;
+    margin-left: -20px;
+}
+
+.line8-image{
+    width: 65%;
+    height: 8px;
+    margin-left: -84px;
+}
+
+.email{
+    padding: 0px 60px;
+    /* border: 2px solid red; */
+}
+
+.email-head{
+    margin: 20px 0px 10px;
+    /* border: 2px solid red; */
+}
+
+.email-head p{
+    color: rgba(30, 30, 30, 0.65);
+    font-family: PoppingsRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    cursor: pointer;
+}
+
+.faris{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 5px 90px 0px 0px ;
+}
+
+.faris p{
+    color: #1E1E1E;
+    font-family: PoppingsRegular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    cursor: pointer;
+}
+
+.email-image{
+    width: 2%;
+    cursor: pointer;
+}

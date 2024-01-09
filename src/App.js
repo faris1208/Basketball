@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import './styles/login.css';
+import './styles/navbar.css';
+import './styles/dashboard.css';
+import './styles/beginners.css';
+import './styles/admin.css';
+import './styles/account.css';
+import './styles/settings.css';
+import Log from './components/Log';
+import Navbar from './components/Navbar';
+import {Routes, Route, } from 'react-router-dom';
+import Dashboard from './components/Dashboard';
+import Beginners from './components/Beginners';
+import Admin from './components/Admin';
+import Account from './components/Account';
+import Settings from './components/Settings';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+          <Routes>
+            <Route exact path='/' element={<Log />}/>
+            {/* <Route path='/navbar' element={<Navbar />}/> */}
+            <Route path='/dashboard' element={<Navbar><Dashboard /></Navbar>}/>
+            <Route path='/beginners' element={<Navbar><Beginners /></Navbar>}/>
+            <Route path='/admin' element={<Navbar><Admin /></Navbar>}/>
+            <Route path='/account' element={<Navbar><Account /></Navbar>}/>
+            <Route path='/settings' element={<Navbar><Settings /></Navbar>}/>
+          </Routes>
     </div>
   );
 }
