@@ -7,28 +7,31 @@
 .beginners-wrapper{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    gap: 60px;
+    gap: 20px;
     padding: 40px 0px 0px 30px;
+    /* border: 2px solid red; */
+
 }
 
 .beginners-contents{
-    width: 55%;
+    width: 50%;
     position: relative;
+    /* border: 2px solid blue; */
 
 }
 
 
 .bars-input{
     width: 100%;
-    padding: 11px 30px ;
+    padding: 8px 30px ;
     /* color: rgba(30, 30, 30, 0.43); */
     color: #000;
     font-family: PoppingsRegular;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 32px; /* 177.778% */
 
     border-radius: 10px;
@@ -42,24 +45,24 @@
 }
 
 .bar2-image{
-    width: 3%;
+    width: 4%;
     position: absolute;
-    top: 18px;
+    top: 15px;
     left: 25px;
 }
 
 .begin-contents{
-    width: 45%;
-    max-width: 800px;
+    width: 50%;
+    /* max-width: 800px; */
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     /* position: relative; */
     /* border: 2px solid black; */
 }
 
 .begin-head{
-    width: 70%;
+    width: 45%;
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -87,26 +90,26 @@
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 10px 0px;
+    padding: 9px 20px;
     /* position: absolute; */
 }
 
 .moves p{
     color: #1E1E1E;
     font-family: PoppingsRegular;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px; /* 177.778% */
 }
 
 .new-image{
-    width: 13%;
+    width: 20%;
     cursor: pointer;
 }
 .drills{
     position: absolute;
-    top: 75px;
+    top: 70px;
     width: 70%;
     display: none;
     /* border: 2px solid red; */
@@ -131,7 +134,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 32px; /* 177.778% */
-    padding: 8px 0px;
+    padding: 6px 0px;
     cursor: pointer;
 }
 
@@ -140,16 +143,16 @@
 }
 
 .icons-head{
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 13px;
+    gap: 15px;
     /* border: 2px solid red; */
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 10px 0px;
+    padding: 8px 0px;
 }
 
 .icons-image{
@@ -166,15 +169,15 @@
 }
 
 .notify-head{
-    width: 80px;
+    width: 50px;
     height: 45px;
     border-radius: 50%;
-    background-color: purple;
+    background-color: #2A2D74;
     /* border: 3px solid purple; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right:40px ;
+    margin-right:20px ;
 }
 
 .notify-image{
@@ -187,7 +190,7 @@
 .exercise-container{
     padding: 30px;
     background: #F4F6FF;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 40px;
     /* display: none; */
 }
@@ -200,7 +203,7 @@
     align-items: center;
     background-color: #fff;
     /* border: 2px solid green; */
-    gap: 100px;
+    gap: 55px;
     padding: 35px 35px 20px;
     border-bottom: 1px solid rgba(30, 30, 30, 0.20);
 }
@@ -208,7 +211,7 @@
 .exercise-wrapper h3{
     color: #2A2D74;
     font-family: PoppingsRegular;
-    font-size: 25px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 32px; /* 177.778% */
@@ -242,7 +245,7 @@
     align-items: center;
     /* border: 2px solid red; */
     background-color: #fff;
-    gap: 170px;
+    gap: 100px;
     padding: 35px 35px 20px;
     border-bottom: 1px solid rgba(30, 30, 30, 0.20);
 }
@@ -260,7 +263,7 @@
 .stretch h3{
     color: #192126;
     font-family: PoppingsRegular;
-    font-size: 17px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px; /* 150% */
@@ -270,7 +273,7 @@
 .stretch p{
     color: rgba(25, 33, 38, 0.50);
     font-family: PoppingsRegular;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
@@ -280,16 +283,19 @@
 
 .stretch{
     width: 18%;
+    /* border: 2px solid green; */
 }
 
 
 .number-one{
     width: 5%;
+    /* border: 2px solid black; */
 }
 
 .neck{
-    width:5% ;
+    width:10% ;
     /* margin-left: 60px; */
+    /* border: 2px solid blue; */
 }
 
 .two-button{
@@ -303,11 +309,11 @@
     background: #2A2D74;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-    padding: 15px 45px;
+    padding: 12px 22px;
 
     color: #FFF;
     font-family: PoppingsRegular;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 16px; /* 100% */
@@ -339,7 +345,7 @@
 .plus h2{
     color: rgba(25, 33, 38, 0.72);
     font-family: PoppingsRegular;
-    font-size: 19px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: 32px; /* 177.778% */
@@ -347,6 +353,6 @@
 
 
 .plus-image{
-    width: 2.5%;
+    width: 3%;
     cursor: pointer;
 }
