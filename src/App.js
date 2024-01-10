@@ -6,6 +6,7 @@ import './styles/beginners.css';
 import './styles/admin.css';
 import './styles/account.css';
 import './styles/settings.css';
+import './styles/create.css';
 import Log from './components/Log';
 import Navbar from './components/Navbar';
 import {Routes, Route, } from 'react-router-dom';
@@ -14,6 +15,7 @@ import Beginners from './components/Beginners';
 import Admin from './components/Admin';
 import Account from './components/Account';
 import Settings from './components/Settings';
+import Create from './components/Create';
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
             <Route path='/admin' element={<Navbar><Admin /></Navbar>}/>
             <Route path='/account' element={<Navbar><Account /></Navbar>}/>
             <Route path='/settings' element={<Navbar><Settings /></Navbar>}/>
+            <Route path='/create' element={<Navbar><Create /></Navbar>}/>
           </Routes>
     </div>
   );

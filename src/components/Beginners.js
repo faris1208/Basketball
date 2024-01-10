@@ -3,6 +3,7 @@ import icon from "../img/User.svg";
 import notification from "../img/Bell.svg";
 import bars from "../img/gridicons_dropdown.svg";
 import plus from "../img/Plus.svg";
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const Beginners = () => {
@@ -15,8 +16,10 @@ const Beginners = () => {
             setActive((open) => !open)
         }
 
+        const navigate = useNavigate()
+
     return ( 
-        <div>
+        <div className="beginners-view">
              <div className="beginners-wrapper">
                 <div className="beginners-contents">
                     <img src={bar} alt="" className="bar2-image" width="100%" />
@@ -146,7 +149,7 @@ const Beginners = () => {
                 </div>
                 <div className="plus-wrapper">
                     <div className="plus">
-                        <img src={plus} alt="" className="plus-image" width="100%" />
+                        <img src={plus} alt="" className="plus-image" width="100%" onClick={() => {navigate("/create")}} />
                         <h2>Add More Fields</h2>
                     </div>
                 </div>

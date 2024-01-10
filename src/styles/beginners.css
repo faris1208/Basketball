@@ -1,7 +1,6 @@
-/* .dashboard-container{
+/* .beginners-view{
     background: #F4F6FF;
     width: 100%;
-    max-width: 840px;
 } */
 
 .beginners-wrapper{
@@ -190,7 +189,7 @@
 .exercise-container{
     padding: 30px;
     background: #F4F6FF;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin-top: 40px;
     /* display: none; */
 }
@@ -223,6 +222,15 @@
     width:22% ;
     /* border: 2px solid red; */
     gap: 20px;
+}
+
+.activity h3{
+    color: #2A2D74;
+    font-family: PoppingsRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
 }
 
 .news-image{
