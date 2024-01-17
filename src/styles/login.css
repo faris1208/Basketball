@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    /* border: 2px solid red; */
     /* max-width: 800px; */
 
     /* height: 100vh; */
@@ -11,13 +12,8 @@
 .log-container{
     width: 100%;
     max-width: 800px;
-    /* background-image: url(/src/img/ball\ 8\ percent\ 3.svg);
-    
-    border: 2px solid red;
-    min-height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
+    /* border: 2px solid red; */
+    margin-bottom: 60px;
 }
 
 .log-wrapper{
@@ -157,7 +153,7 @@
     gap: 5px;
 }
 .check-image{
-    width: 18%;
+    width: 11%;
     cursor: pointer;
 }
 
@@ -207,5 +203,6 @@
 }
 
 .log-btn:hover{
-    color: black;
+    background-color: #4044c0;
+    color: #dad5d5;
 }

@@ -1,4 +1,4 @@
-import check from "../img/mdi_checkbox-outline.svg";
+import check from "../img/Rectangle 7040.svg";
 import eye from "../img/eye-slash.svg";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";

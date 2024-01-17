@@ -39,11 +39,13 @@ const Navbar = ({children}) => {
                             <h2>Levels</h2>
                             <img src={down} alt="" className="down-image" width="100%"/>
                         </div>
+
                         <div className={`expert ${active ? "is-open" : ""}`}>
                             <ul>
                                 <li  onClick={() => {navigate("/beginners")}}>Beginner </li>
-                                <li  onClick={() => {navigate("/beginners")}}>Intermediate </li>
-                                <li  onClick={() => {navigate("/beginners")}}>Expert </li>
+                                <li  onClick={() => {navigate("/intermediate")}}>Intermediate </li>
+                                <li  onClick={() => {navigate("/expert")}}>Expert </li>
+                                <li  onClick={() => {navigate("/elite")}}>Elite </li>
                             </ul>
                         </div>
                     </div>
