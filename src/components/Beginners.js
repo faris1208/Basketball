@@ -242,6 +242,11 @@ const Beginners = () => {
                     </div>
                 </div>
             </div>
+
+
+
+
+
         </div>
      );
 }
