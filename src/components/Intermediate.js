@@ -10,22 +10,20 @@ import law from "../img/Trash.svg";
 import law2 from "../img/Trash.svg";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+const Intermediate = () => {
 
-const Beginners = () => {
+    const [active, setActive] = useState(false);
+    const [close, setClose] = useState(false);
 
-        const [active, setActive] = useState(false);
-        const [close, setClose] = useState(false);
-    
-        const toggleMenu = () => {
-            setActive((open) => !open)
-        }
+    const toggleMenu = () => {
+        setActive((open) => !open)
+    }
 
-        const toggleDelete = () => {
-            setClose((open) => !open)
-        }
+    const toggleDelete = () => {
+        setClose((open) => !open)
+    }
 
-        const navigate = useNavigate()
-
+    const navigate = useNavigate()
     return ( 
         <div className="beginners-view">
              <div className="beginners-wrapper">
@@ -246,4 +244,4 @@ const Beginners = () => {
      );
 }
  
-export default Beginners;
+export default Intermediate;

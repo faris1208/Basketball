@@ -161,7 +161,7 @@
 .exercise-container{
     padding: 30px;
     background: #F4F6FF;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 40px;
     /* display: none; */
 }

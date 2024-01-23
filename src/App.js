@@ -16,6 +16,9 @@ import Admin from './components/Admin';
 import Account from './components/Account';
 import Settings from './components/Settings';
 import Create from './components/Create';
+import Intermediate from './components/Intermediate';
+import Expert from './components/Expert';
+import Elite from './components/Elite';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
             {/* <Route path='/navbar' element={<Navbar />}/> */}
             <Route path='/dashboard' element={<Navbar><Dashboard /></Navbar>}/>
             <Route path='/beginners' element={<Navbar><Beginners /></Navbar>}/>
+            <Route path='/intermediate' element={<Navbar><Intermediate /></Navbar>}/>
+            <Route path='/expert' element={<Navbar><Expert /></Navbar>}/>
+            <Route path='/elite' element={<Navbar><Elite /></Navbar>}/>
             <Route path='/admin' element={<Navbar><Admin /></Navbar>}/>
             <Route path='/account' element={<Navbar><Account /></Navbar>}/>
             <Route path='/settings' element={<Navbar><Settings /></Navbar>}/>

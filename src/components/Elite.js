@@ -11,21 +11,20 @@ import law2 from "../img/Trash.svg";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-const Beginners = () => {
+const Elite = () => {
 
-        const [active, setActive] = useState(false);
-        const [close, setClose] = useState(false);
-    
-        const toggleMenu = () => {
-            setActive((open) => !open)
-        }
+    const [active, setActive] = useState(false);
+    const [close, setClose] = useState(false);
 
-        const toggleDelete = () => {
-            setClose((open) => !open)
-        }
+    const toggleMenu = () => {
+        setActive((open) => !open)
+    }
 
-        const navigate = useNavigate()
+    const toggleDelete = () => {
+        setClose((open) => !open)
+    }
 
+    const navigate = useNavigate()
     return ( 
         <div className="beginners-view">
              <div className="beginners-wrapper">
@@ -246,4 +245,4 @@ const Beginners = () => {
      );
 }
  
-export default Beginners;
+export default Elite;

@@ -89,11 +89,13 @@
 .add-activity{
     width: 96%;
     padding: 20px 0px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: #FFF;
     padding: 30px 30px 80px;
     /* margin-bottom: 40px; */
 }
+
+
 
 .basic-information h3{
     color: #192126;
